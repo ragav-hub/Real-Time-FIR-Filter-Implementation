@@ -1,10 +1,10 @@
 # Real-Time-FIR-Filter-Implementation
-#Implement a low-pass FIR filter on a DSP processor/Arduino with audio input.
+# Implement a low-pass FIR filter on a DSP processor/Arduino with audio input.
 
-#Aim
+# Aim
 To design and implement a low-pass Finite Impulse Response (FIR) filter and demonstrate real-time (chunked) filtering of an audio signal using Python in Google Colab. The objective is to remove high-frequency noise from audio and visualize/compare input vs filtered waveforms and spectra.
 
-#Apparatus (Software / Virtual Lab)
+# Apparatus (Software / Virtual Lab)
 
 Google Colab (web)
 Python packages: numpy, scipy, matplotlib, soundfile, IPython.display
@@ -12,7 +12,7 @@ Python packages: numpy, scipy, matplotlib, soundfile, IPython.display
 An audio file to upload (mono or stereo .wav, .flac, or .mp3 — stereo will be converted to mono)
 (Optional) Google Drive if you prefer to load/store large files
 
-#Program
+# Program
 ```
 # === Real-Time FIR Low-Pass Filter (Colab) ===
 # Paste into Google Colab and run.
@@ -145,21 +145,21 @@ files.download("spectrum_compare.png")
 files.download("freq_response.png")
 ```
 
-#Original Audio
+# Original Audio
 [Lokiverse_Theme_Video_-_Vikram_Ka_(getmp3.pro).mp3](https://github.com/user-attachments/files/22945034/Lokiverse_Theme_Video_-_Vikram_Ka_.getmp3.pro.mp3)
 
-#Filtered Audio
+# Filtered Audio
 
 [filtered_audio.wav](https://github.com/user-attachments/files/22945062/filtered_audio.wav)
 
-#Output Waveform
+# Output Waveform
 <img width="1200" height="450" alt="freq_response" src="https://github.com/user-attachments/assets/a0084cce-60bc-446e-b663-e32d8b49e763" />
 
 <img width="1500" height="900" alt="time_domain_compare" src="https://github.com/user-attachments/assets/2e450bea-8c44-4c1a-a263-89903757ad4d" />
 
 <img width="1500" height="750" alt="spectrum_compare" src="https://github.com/user-attachments/assets/46b661a9-e577-40e4-9aae-15f78f41cef8" />
 
-#Conclusion
+# Conclusion
 Outcome: Using the FIR low-pass filter (Hamming window, numtaps=51, cutoff=1000 Hz) we successfully simulated real-time chunked filtering of an uploaded audio file in Google Colab. The filtered waveform and spectrum verify attenuation of high-frequency components and audible noise reduction.
 
 
