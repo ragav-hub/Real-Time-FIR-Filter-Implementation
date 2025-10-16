@@ -5,13 +5,13 @@
 To design and implement a low-pass Finite Impulse Response (FIR) filter and demonstrate real-time (chunked) filtering of an audio signal using Python in Google Colab. The objective is to remove high-frequency noise from audio and visualize/compare input vs filtered waveforms and spectra.
 
 # Apparatus (Software / Virtual Lab)
-
+```
 Google Colab (web)
 Python packages: numpy, scipy, matplotlib, soundfile, IPython.display
 (Colab install commands included in the program)
 An audio file to upload (mono or stereo .wav, .flac, or .mp3 — stereo will be converted to mono)
 (Optional) Google Drive if you prefer to load/store large files
-
+```
 # Program
 ```
 # === Real-Time FIR Low-Pass Filter (Colab) ===
